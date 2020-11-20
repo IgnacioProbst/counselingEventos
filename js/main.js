@@ -29,6 +29,7 @@
             var errorDiv = document.getElementById('error');
             var botonRegistro = document.getElementById('btnRegistro');
 
+            //resultado
             var lista_productos = document.getElementById('lista-productos');
             var suma = document.getElementById('suma-total');
 
@@ -266,7 +267,7 @@
 
         // Colorbox
 
-        $('.invitado-info').colorbox({ inline: true, width: '50%' });
+
         $('.boton_newsletter').colorbox({ inline: true, width: '50%' });
     });
 })();

@@ -136,38 +136,20 @@
                 var boletosDia = parseInt(pase_dia.value, 10) || 0,
                     boletos2Dias = parseInt(pase_dosdias.value, 10) || 0,
                     boletoCompleto = parseInt(pase_completo.value, 10) || 0;
-
-                console.log(boletoCompleto);
-
                 var diasElegidos = [];
 
                 if (boletosDia > 0) {
-                    diasElegidos.push('viernes');
-                    console.log(diasElegidos);
+                    diasElegidos.push("viernes");
                 }
                 if (boletos2Dias > 0) {
-                    diasElegidos.push('viernes', 'sabado');
-                    console.log(diasElegidos);
+                    diasElegidos.push("viernes", "sabado");
                 }
                 if (boletoCompleto > 0) {
-                    diasElegidos.push('viernes', 'sabado', 'domingo');
-                    console.log(diasElegidos);
+                    diasElegidos.push("viernes", "sabado", "domingo");
                 }
-                console.log(diasElegidos.length);
-
-                // muestra los seleccionados
                 for (var i = 0; i < diasElegidos.length; i++) {
-                    document.getElementById(diasElegidos[i]).style.display = 'block';
+                    document.getElementById(diasElegidos[i]).style.display = "block";
                 }
-
-                // los oculta si vuelven a 0
-                if (diasElegidos.length == 0) {
-                    var todosDias = document.getElementsByClassName('contenido-dia');
-                    for (var i = 0; i < todosDias.length; i++) {
-                        todosDias[i].style.display = 'none';
-                    }
-                }
-
             }
 
         }
