@@ -35,7 +35,7 @@
                             </div>
                             <!-- /.box-header -->
                                 <!-- form start -->
-                                <form role="form" id="crear-admin" name="crear-admin" action="insertar-admin.php" method="post">
+                                <form role="form" id="crear-admin" name="crear-admin" action="modelo-admin.php" method="post">
                                     <div class="box-body">
                                             <div class="form-group">
                                                 <label for="usuario">Usuario: </label>
@@ -49,7 +49,7 @@
                                     <!-- /.box-body -->
 
                                     <div class="box-footer">
-                                        <input type="hidden" name="agregar-admin" value="1">
+                                        <input type="hidden" name="registro" value="nuevo">
                                         <button type="submit" class="btn btn-primary">Agregar</button>
                                     </div>
                                 </form>
