@@ -46,7 +46,6 @@ if($_POST['registro'] == 'actualizar') {
     $id_registro = $_POST['id_registro'];
     $usuario = $_POST['usuario'];
     $nuevo_password = $_POST['nuevo_password'];
-    
 
     try {
         $opciones = array(

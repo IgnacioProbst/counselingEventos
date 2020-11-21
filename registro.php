@@ -75,68 +75,7 @@
                 </div><!--#paquetes-->
                 
                 
-                <div id="eventos" class="eventos clearfix">
-                         <h3>Elige tus Eventos</h3>
-                         <div class="caja">
-                                <?php
-                                    try {
-                                        require_once('includes/funciones/bd_conexion.php');
-                                        $sql = "SELECT eventos.*, categoria_evento.cat_evento, invitados.nombre_invitado, invitados.apellido_invitado ";
-                                        $sql .= " FROM eventos ";
-                                        $sql .= " JOIN categoria_evento ";
-                                        $sql .= " ON eventos.id_cat_evento = categoria_evento.id_categoria ";
-                                        $sql .= " JOIN invitados ";
-                                        $sql .= " ON eventos.id_inv = invitados.invitado_id ";
-                                        $sql .= " ORDER BY eventos.fecha_evento, eventos.id_cat_evento, eventos.hora_evento ";
-                                        //echo $sql;
-                                        $resultado = $conn->query($sql);
-                                    } catch (Exception $e) {
-                                        echo $e->getMessage();
-                                    }
-                                    
-                                    $eventos_dias = array();
-                                    while($eventos = $resultado->fetch_assoc()) {
-                                        
-                                        $fecha = $eventos['fecha_evento'];
-                                        setlocale(LC_ALL, 'es_ES');
-                                        $dia_semana = strftime("%A", strtotime($fecha));
-                                        
-                                        $categoria = $eventos['cat_evento'];
-                                        $dia = array(
-                                            'nombre_evento' => $eventos['nombre_evento'],
-                                            'hora' => $eventos['hora_evento'],
-                                            'id' => $eventos['evento_id'],
-                                            'nombre_invitado' => $eventos['nombre_invitado'],
-                                            'apellido_invitado' => $eventos['apellido_invitado']
-                                        );
-                                        $eventos_dias[$dia_semana]['eventos'][$categoria][] = $dia;
-                                    }
-                        
-                                
-                                ?>
-                             
-                                <?php foreach($eventos_dias as $dia => $eventos) { ?>
-                                   <div id="<?php echo str_replace('á', 'a', $dia); ?>" class="contenido-dia clearfix">
-                                       <h4><?php echo $dia; ?></h4>
-                                       
-                                       <?php foreach($eventos['eventos'] as $tipo => $evento_dia): ?>  
-                                           <div>
-                                                 <p><?php echo $tipo; ?></p>
-                                               
-                                                 <?php foreach($evento_dia as $evento) { ?>
-                                                   <label>
-                                                        <input type="checkbox" name="registro[]" id="<?php echo $evento['id']; ?>" value="<?php echo $evento['id']; ?>">
-                                                        <time><?php echo $evento['hora']; ?></time> <?php echo $evento['nombre_evento']; ?>
-                                                        <br>
-                                                        <span class="autor"><?php echo $evento['nombre_invitado'] . " "  . $evento['apellido_invitado']; ?></span>
-                                                   </label>
-                                                <?php } //foreach ?>
-                                           </div>
-                                       <?php endforeach; ?>
-                                   </div> <!--.contenido-dia -->
-                               <?php  } ?>
-                           </div><!--.caja-->
-                     </div> <!--#eventos-->
+                
                      
                      <div id="resumen" class="resumen">
                         <h3>Pago y Extras</h3>

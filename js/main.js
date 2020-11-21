@@ -37,7 +37,6 @@
             var camisas = document.getElementById('camisa_evento');
             var etiquetas = document.getElementById('etiquetas');
 
-            botonRegistro.disabled = true;
 
             calcular.addEventListener('click', calcularMontos);
 
@@ -117,7 +116,6 @@
                     }
                     suma.innerHTML = '$ ' + totalPagar.toFixed(2);
 
-                    botonRegistro.disabled = false;
                     document.getElementById('total_pedido').value = totalPagar;
                 }
             }

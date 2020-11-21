@@ -126,7 +126,8 @@
                     }
                     suma.innerHTML = "$ " + totalPagar.toFixed(2);
 
-                    botonRegistro.disabled = false;
+                    botonRegistro.value = 'Comunicarse con 3515995502 para realizar el pago';
+                    botonRegistro.disabled = true;
                     document.getElementById('total_pedido').value = totalPagar;
 
                 }
