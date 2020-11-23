@@ -22,8 +22,8 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1 class="text-center">
-        Editar Invitados
-        <small>Utilice el formulario para editar un invitado</small>
+        Editar Tutor
+        <small>Utilice el formulario para editar un Tutor</small>
       </h1>
 
       
@@ -36,7 +36,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="box box-primary">
                             <div class="box-header with-border">
-                                <h3 class="box-title">Información Invitado</h3>
+                                <h3 class="box-title">Información Tutor</h3>
                             </div>
                             <!-- /.box-header -->
                                 <?php 

@@ -1,23 +1,23 @@
 <?php
 include_once 'funciones/funciones.php';
 
-// Leer los datos
-$titulo = $_POST['titulo_evento'];
-$categoria_id = $_POST['categoria_evento'];
-$invitado_id =  $_POST['invitado_evento'];
-$cupo =  $_POST['cupo_evento'];
-// obtener fecha
-$fecha = $_POST['fecha_evento'];
-$fecha_formato = date("Y-m-d", strtotime($fecha));
-//obtener hora
-$hora = $_POST['hora_evento'];
-$id_registro = $_POST['id_registro'];
+// // Leer los datos
+// $titulo = $_POST['titulo_evento'];
+// $categoria_id = $_POST['categoria_evento'];
+// $invitado_id =  $_POST['invitado_evento'];
+// $cupo =  $_POST['cupo_evento'];
+// // obtener fecha
+// $fecha = $_POST['fecha_evento'];
+// $fecha_formato = date("Y-m-d", strtotime($fecha));
+// //obtener hora
+// $hora = $_POST['hora_evento'];
+// $id_registro = $_POST['id_registro'];
 
 if($_POST['registro'] == 'nuevo') {
 
     $icono = $_POST['icono'];
     $nombre_categoria = $_POST['nombre_categoria'];
-    
+
     try {
         $stmt = $conn->prepare("INSERT INTO categoria_evento (cat_evento, icono) VALUES (?,?)");
         $stmt->bind_param("ss", $nombre_categoria, $icono);
@@ -50,7 +50,6 @@ if($_POST['registro'] == 'actualizar') {
     $categoria = $_POST['categoria'];
     $icono = $_POST['icono'];
     $id_registro = $_POST['id_registro'];
-
 
     try {
         $stmt = $conn->prepare("UPDATE categoria_evento SET cat_evento = ?,  icono = ?, actualizado = NOW()  WHERE id_categoria = ?  ");

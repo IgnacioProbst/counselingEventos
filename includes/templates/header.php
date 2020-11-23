@@ -91,7 +91,7 @@
                     <a href="index.php">Inicio</a>
                     <a href="calendario.php">Calendario</a>
                     <a href="invitados.php">Invitados</a>
-                    <a href="registro.php">Reservaciones</a>
+                    <a href="registro.php">Compras</a>
                 </nav>
             </div><!--.contenedor-->
         </div> <!--.barra-->

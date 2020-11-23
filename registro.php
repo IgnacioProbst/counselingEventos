@@ -27,9 +27,9 @@
                                 <h3>Conferencia</h3>
                                 <p class="numero">$800</p>
                                 <ul>
-                                  <li>Bocadillos Gratis</li>
-                                  <li>Todas las conferencias</li>
-                                  <li>Todos los talleres</li>
+                                <li>Ticket valido para una Conferencia</li>
+                                  <li>Material de estudio incluido</li>
+                                  <li>Valido por 1 año</li>
                                 </ul>
                                 <div class="orden">
                                     <label for="pase_dia">Boletos deseados:</label>
@@ -43,9 +43,9 @@
                                 <h3>Curso</h3>
                                 <p class="numero">$1499</p>
                                 <ul>
-                                  <li>Bocadillos Gratis</li>
-                                  <li>Todas las conferencias</li>
-                                  <li>Todos los talleres</li>
+                                <li>Ticket valido para un Curso</li>
+                                  <li>Material de estudio incluido</li>
+                                  <li>Valido por 1 año</li>
                                 </ul>
                                 <div class="orden">
                                     <label for="pase_completo">Boletos deseados:</label>
@@ -60,9 +60,9 @@
                                 <h3>Seminario</h3>
                                 <p class="numero">$1100</p>
                                 <ul>
-                                  <li>Bocadillos Gratis</li>
-                                  <li>Todas las conferencias</li>
-                                  <li>Todos los talleres</li>
+                                <li>Ticket valido para un Seminario</li>
+                                  <li>Material de estudio incluido</li>
+                                  <li>Valido por 1 año</li>
                                 </ul>
                                 <div class="orden">
                                     <label for="pase_dosdias">Boletos deseados:</label>

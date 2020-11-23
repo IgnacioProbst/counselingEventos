@@ -1,11 +1,11 @@
 <?php
 include_once 'funciones/funciones.php';
 
-$nombre = $_POST['nombre_invitado'];
-$apellido = $_POST['apellido_invitado'];
-$biografia = $_POST['biografia_invitado'];
-// id del registro
-$id_registro = $_POST['id_registro'];
+// $nombre = $_POST['nombre_invitado'];
+// $apellido = $_POST['apellido_invitado'];
+// $biografia = $_POST['biografia_invitado'];
+// // id del registro
+// $id_registro = $_POST['id_registro'];
 
 // funciones
 if($_POST['registro'] == 'nuevo') {

@@ -1,24 +1,6 @@
 <?php
 include_once 'funciones/funciones.php';
-
-$nombre = $_POST['nombre'];
-$apellido = $_POST['apellido'];
-$email = $_POST['email'];
-
-// boletos
-$boletos_adquiridos = $_POST['boletos'];
-// Pedido
-$camisas = $_POST['pedido_extra']['camisas']['cantidad'];
-$etiquetas = $_POST['pedido_extra']['etiquetas']['cantidad'];
-
-$pedido = productos_json($boletos_adquiridos, $camisas, $etiquetas);
-$total = $_POST['total_pedido'];
-$regalo = $_POST['regalo'];
-$eventos = $_POST['registro_evento'];
-$registro_eventos = eventos_json($eventos);
-
 $id_registro = $_POST['id_registro'];
-$fecha_registro = $_POST['fecha_registro'];
 
 if($_POST['registro'] == 'nuevo') {
 

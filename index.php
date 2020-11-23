@@ -123,9 +123,9 @@
                                 <h3>Conferencia</h3>
                                 <p class="numero">$800</p>
                                 <ul>
-                                  <li>Bocadillos Gratis</li>
-                                  <li>Todas las conferencias</li>
-                                  <li>Todos los talleres</li>
+                                  <li>Ticket valido para una Conferencia</li>
+                                  <li>Material de estudio incluido</li>
+                                  <li>Valido por 1 año</li>
                                 </ul>
                                 <a href="http://localhost/gdlwebcamp/registro.php#Comprar" class="button hollow">Comprar</a>
                             </div>
@@ -135,9 +135,9 @@
                                 <h3>Curso</h3>
                                 <p class="numero">$1499</p>
                                 <ul>
-                                  <li>Bocadillos Gratis</li>
-                                  <li>Todas las conferencias</li>
-                                  <li>Todos los talleres</li>
+                                <li>Ticket valido para un Curso</li>
+                                  <li>Material de estudio incluido</li>
+                                  <li>Valido por 1 año</li>
                                 </ul>
                                 <a href="http://localhost/gdlwebcamp/registro.php#Comprar" class="button">Comprar</a>
                             </div>
@@ -148,9 +148,9 @@
                                 <h3>Seminario</h3>
                                 <p class="numero">$1100</p>
                                 <ul>
-                                  <li>Bocadillos Gratis</li>
-                                  <li>Todas las conferencias</li>
-                                  <li>Todos los talleres</li>
+                                <li>Ticket valido para un Seminario</li>
+                                  <li>Material de estudio incluido</li>
+                                  <li>Valido por 1 año</li>
                                 </ul>
                                 <a href="http://localhost/gdlwebcamp/registro.php#Comprar" class="button hollow">Comprar</a>
                             </div>
@@ -159,12 +159,14 @@
             </div>
         </section>
 
+        <h2>Nuestra ubicación</h2>
+
         <div style=" max-width: 1902px;">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.942053185687!2d-64.18669648485269!3d-31.388161281413467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432985cdc1f1b91%3A0xe3237650b6846c7f!2sMariano%20Fragueiro%202389%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1605656024411!5m2!1ses-419!2sar" width="100%" height="420" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
 
         <section class="seccion">
-            <h2>Testimoniales</h2>
+            <h2>Testimoniales (Proximamente)</h2>
             <div class="testimoniales contenedor clearfix">
                 <div class="testimonial">
                     <blockquote>

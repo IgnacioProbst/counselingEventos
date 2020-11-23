@@ -61,7 +61,7 @@
             </li>
             <li class="treeview">
                 <a href="#">
-                    <i class="fa fa-user"></i> <span>Invitados </span>
+                    <i class="fa fa-user"></i> <span>Tutores</span>
                     <span class="pull-right-container">
                         <i class="fa fa-angle-left pull-right"></i>
                     </span>

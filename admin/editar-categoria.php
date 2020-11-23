@@ -72,7 +72,7 @@
                                         <input type="hidden" name="registro" value="actualizar">
                                         <?php $id = $_GET['id']; ?>
                                         <input type="hidden" name="id_registro" value="<?php echo $id; ?>">
-                                        <button href="lista-categoria.php" type="submit" name="actualizar" id="actualizar" class="btn btn-primary btn_actualizar_admin">Actualizar</button>
+                                        <button type="submit" name="actualizar" id="actualizar" class="btn btn-primary btn_actualizar_admin">Actualizar</button>
                                     </div>
                                 </form>
                             

@@ -48,7 +48,7 @@
                                                     <div class="input-group-addon">
                                                          <i class="fa fa-lock" aria-hidden="true"></i>
                                                     </div>
-                                                    <input id="icono" type="text" name="icono" class="form-control pull-right" placeholder="fa-icon" value="<?php echo $categoria['icono']; ?>" >
+                                                    <input id="icono" type="text" name="icono" class="form-control pull-right" placeholder="fa-icon"  >
                                                 </div>
                                                 <!-- /.input group -->
                                             </div>
@@ -58,7 +58,7 @@
 
                                     <div class="box-footer">
                                         <input type="hidden" name="registro" value="nuevo">
-                                        <button type="submit" name="agregar" id="agregar" class="btn btn-primary">Agregar</button>
+                                        <button type="submit" name="agregar" id="guardar-registro" class="btn btn-primary">Agregar</button>
                                     </div>
                                 </form>
                             

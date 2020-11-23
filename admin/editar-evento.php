@@ -127,7 +127,7 @@
                                             </div>
 
                                             <div class="form-group">
-                                                <label>Invitado</label>
+                                                <label>Tutor</label>
                                                 <select name="invitado_evento" class="form-control select2" style="width: 100%;">
                                                 <option value="0"> - Seleccione - </option>
                                                 <?php 

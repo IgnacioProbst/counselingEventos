@@ -17,8 +17,8 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1 class="text-center">
-        Añadir Invitados
-        <small>Utilice el formulario para agregar un invitado</small>
+        Añadir tutor
+        <small>Utilice el formulario para agregar un tutor</small>
       </h1>
 
       
@@ -31,7 +31,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="box box-primary">
                             <div class="box-header with-border">
-                                <h3 class="box-title">Información Invitado</h3>
+                                <h3 class="box-title">Información tutor</h3>
                             </div>
                             <!-- /.box-header -->
                                 <!-- form start -->
@@ -60,7 +60,7 @@
 
                                     <div class="box-footer">
                                         <input type="hidden" name="registro" value="nuevo">
-                                        <button type="submit" name="agregar" id="agregar" class="btn btn-primary">Agregar</button>
+                                        <button type="submit" name="agregar" id="guardar-registro-archivo" class="btn btn-primary">Agregar</button>
                                     </div>
                                 </form>
                             

@@ -41,7 +41,7 @@ include_once 'templates/header.php'; ?>
                             <th>Nombre</th>
                             <th>Fecha y Hora</th>
                             <th>Categoria</th>
-                            <th>Invitado</th>
+                            <th>Tutor</th>
                             <th>Acciones</th>
                         </tr>
                 </thead>
@@ -81,7 +81,7 @@ include_once 'templates/header.php'; ?>
                           <th>Nombre</th>
                           <th>Fecha y Hora</th>
                           <th>Categoria</th>
-                          <th>Invitado</th>
+                          <th>Tutor</th>
                           <th>Acciones</th>
                       </tr>
                 </tfoot>

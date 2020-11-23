@@ -17,8 +17,8 @@ include_once 'templates/header.php'; ?>
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        invitados
-        <small>Administra los invitados desde esta página</small>
+        Tutores
+        <small>Administra los tutores desde esta página</small>
       </h1>
 
       
@@ -29,7 +29,7 @@ include_once 'templates/header.php'; ?>
       <div class="col-xs-12">
         <div class="box">
           <div class="box-header">
-            <h3 class="box-title">Listado de Todos los Invitados</h3>
+            <h3 class="box-title">Listado de Todos los tutores</h3>
           </div>
           <!-- /.box-header -->
           <div class="box-body">

@@ -101,7 +101,7 @@
                                                 <!-- /.form group -->
                                             </div> <!--.bootstrap-timepicker-->
                                             <div class="form-group">
-                                                <label>Invitado</label>
+                                                <label>Tutor</label>
                                                 <select name="invitado_evento" class="form-control select2" style="width: 100%;">
                                                 <option value="0"> - Seleccione - </option>
                                                 <?php 
@@ -124,7 +124,7 @@
 
                                     <div class="box-footer">
                                         <input type="hidden" name="registro" value="nuevo">
-                                        <button type="submit" name="agregar" id="agregar" class="btn btn-primary">Agregar</button>
+                                        <button type="submit" name="agregar" id="guardar-registro" class="btn btn-primary">Agregar</button>
                                     </div>
                                 </form>
                             

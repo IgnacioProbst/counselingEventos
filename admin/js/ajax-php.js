@@ -10,14 +10,12 @@ $(document).ready(function() {
             success: function(data) {
                 console.log(data);
                 if (data.respuesta == 'correcto') {
-                    console.log('a')
                     swal(
                         'Registro Exitoso!',
                         'Se agregó correctamente!',
                         'success'
                     )
                 } else {
-                    console.log('as')
                     swal(
                         'Error...',
                         'Hubo un error al enviar su información!',
@@ -28,41 +26,41 @@ $(document).ready(function() {
         });
     });
 
-    $(document).ready(function() {
-        $('#guardar-registro').on('submit', function(e) {
-            e.preventDefault();
+    // $(document).ready(function() {
+    //     $('#guardar-registro').on('submit', function(e) {
+    //         e.preventDefault();
 
-            var datos = $(this).serializeArray();
+    //         var datos = $(this).serializeArray();
 
-            $.ajax({
-                type: $(this).attr('method'),
-                data: datos,
-                url: $(this).attr('action'),
-                dataType: 'json',
-                success: function(data) {
-                    console.log(data);
-                    var resultado = data;
-                    if (resultado.respuesta == 'exito') {
-                        swal(
-                            'Exito!',
-                            'El administrador se creo correctamente',
-                            'success'
-                        )
-                    } else {
-                        console.log('b');
-                        swal(
-                            'Error!',
-                            'Hubo un error',
-                            'error'
-                        )
-                    }
-                }
-            });
+    //         $.ajax({
+    //             type: $(this).attr('method'),
+    //             data: datos,
+    //             url: $(this).attr('action'),
+    //             dataType: 'json',
+    //             success: function(data) {
+    //                 console.log(data);
+    //                 var resultado = data;
+    //                 if (resultado.respuesta == 'correcto') {
+    //                     swal(
+    //                         'Exito!',
+    //                         'El administrador se creo correctamente',
+    //                         'success'
+    //                     )
+    //                 } else {
+    //                     console.log('b');
+    //                     swal(
+    //                         'Error!',
+    //                         'Hubo un error',
+    //                         'error'
+    //                     )
+    //                 }
+    //             }
+    //         });
 
 
-        })
+    //     })
 
-    });
+    // });
 
     $('#guardar-registro-archivo').on('submit', function(e) {
         e.preventDefault();
@@ -106,6 +104,7 @@ $(document).ready(function() {
         e.preventDefault();
         var id = $(this).attr('data-id');
         var tipo = $(this).attr('data-tipo');
+        console.log(tipo);
         swal({
             title: 'Estas seguro?',
             text: "Esta acción no se puede revertir!",
